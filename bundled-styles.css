@@ -1,0 +1,75 @@
+/* src/css/Canvas.css */
+canvas {
+  border: 2px solid firebrick;
+}
+
+/* src/css/TabSelector.css */
+ul.tabSelector {
+  list-style-type: none;
+  background-color: whitesmoke;
+  color: black;
+  padding: 0;
+  display: inline-block;
+  border-radius: 5px;
+}
+ul.tabSelector > li {
+  display: inline-block;
+  padding: 5px;
+  border-left: 1px solid greenyellow;
+  cursor: pointer;
+  text-transform: capitalize;
+  border: 0.5px solid grey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+ul li.selectedTab {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 0px rgba(0, 0, 0, 0.2);
+  border-top: 2px solid darkslategray;
+  border-left: 2px solid darkslategray;
+  border-right: 2px solid darkslategray;
+  font-weight: bold;
+}
+
+/* src/css/SimulatorRequestEditor.css */
+#simulator {
+  width: 50%;
+}
+.formLine {
+  display: inline-block;
+  height: 25px;
+  width: 100%;
+}
+.formLine input,
+.formLine select {
+  float: right;
+}
+.formLine span {
+  float: left;
+}
+.simulatorRequestTextArea {
+  height: 55vh;
+  width: 100%;
+}
+input.button {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
+input.submit {
+  border: 1px solid blueviolet;
+  background-color: dodgerblue;
+  color: white;
+}
+input.reset {
+  border: 1px solid brown;
+  background-color: orange;
+  color: white;
+}
+
+/* src/css/style.css */

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "personType": "personnePhysique",
+    "eventDetail": "{\"errorReplyTo\":\"TEST PP SC\"}",
+    "eventName": "Souscription créée",
+    "eventTopic": "jms.queue.vfg..."
+  },
+  {
+    "id": 2,
+    "personType": "personnePhysique",
+    "eventDetail": "{\"errorReplyTo\":\"TEST PP SS\"}",
+    "eventName": "Souscription signée",
+    "eventTopic": "jms.queue.developpement-2..."
+  }
+]
